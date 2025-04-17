@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: cfcli
+Version: 0.1.0
+Summary: A command-line interface tool for Codeforces competitive programming
+Home-page: https://github.com/yourusername/cfcli
+Author: Your Name
+Author-email: your.email@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# CFCLI - Codeforces Command Line Interface
+
+A powerful command-line interface tool for Codeforces competitive programming.
+
+## Features
+
+- View and parse problem statements
+- Submit solutions
+- Check contest standings
+- View user profiles
+- And much more!
+
+## Installation
+
+```bash
+pip install cfcli
+```
+
+## Usage
+
+```bash
+# View help
+cfcli --help
+
+# View problem statement
+cfcli problem 1A
+
+# Submit solution
+cfcli submit 1A solution.cpp
+
+# Check contest standings
+cfcli standings 123
+
+# View user profile
+cfcli user tourist
+```
+
+## Configuration
+
+Create a `.env` file in your home directory with the following:
+
+```env
+CODEFORCES_USERNAME=your_username
+CODEFORCES_PASSWORD=your_password
+```
+
+## License
+
+MIT License
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. 
+
